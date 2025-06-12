@@ -1,0 +1,36 @@
+# Jupyter Book build output
+_build/
+.jupyter_cache/
+
+# Python stuff
+__pycache__/
+*.py[cod]
+*.egg
+*.egg-info/
+dist/
+build/
+env/
+venv/
+*.env
+*.venv
+*.log
+
+# VS Code and other IDEs
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Notebook checkpoints
+.ipynb_checkpoints/
+
+# Temporary files
+*.bak
+*.tmp
+*.swp
+
+# Environment files (optional)
+.env
+.envrc

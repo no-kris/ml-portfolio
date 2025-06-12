@@ -1,0 +1,28 @@
+# Book settings
+title: Machine Learning Projects for Fun
+author: Kris Treska
+logo: logo.png
+
+# Execute notebooks automatically when building the book
+execute:
+  execute_notebooks: force
+
+# LaTeX PDF output settings (can ignore if not using PDF export)
+latex:
+  latex_documents:
+    targetname: ml-projects.tex
+
+# BibTeX for citations (optional)
+bibtex_bibfiles:
+  - references.bib
+
+# Repository information (update this once you create a GitHub repo)
+repository:
+  url: https://github.com/no-kris/ml-portfolio  # Change this!
+  path_to_book: .  # Since your content is in the root or /content folder
+  branch: main
+
+# Show GitHub buttons in the site header
+html:
+  use_issues_button: true
+  use_repository_button: true
