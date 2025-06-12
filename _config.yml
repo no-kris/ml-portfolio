@@ -24,5 +24,6 @@ repository:
 
 # Show GitHub buttons in the site header
 html:
+  baseurl: /ml-portfolio/
   use_issues_button: true
   use_repository_button: true
